@@ -1,0 +1,3 @@
+C:/MiniCoursework/cmake-build-debug/CMakeFiles/MiniCoursework.dir
+C:/MiniCoursework/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/MiniCoursework/cmake-build-debug/CMakeFiles/rebuild_cache.dir
