@@ -3,8 +3,9 @@
 
 
 //define constants
-
+#include "Player.h"
 #include "Constants.h"
+#include <stdbool.h>
 
 //define structures
 typedef enum{
@@ -17,14 +18,17 @@ typedef enum{
 typedef struct {
     SquareType type;
     int oreType;
+    bool mined;
 } MapSquare;
 
 //ore probability function
 int generateRandomOreType();
 
 //function prototypes
-void generateMap(MapSquare map[MAP_SIZE][MAP_SIZE]);
-void displayMap(MapSquare map[MAP_SIZE][MAP_SIZE]);
+void generateMap(MapSquare map[MAP_SIZE][MAP_SIZE], Player *player);
+void displayMap(MapSquare map[MAP_SIZE][MAP_SIZE], Player *player);
+
+
 
 
 

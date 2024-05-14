@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "MiniCoursework::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MiniCoursework-Debug-3854a679dbf4cafdc319.json",
+					"jsonFile" : "target-MiniCoursework-Debug-19d8c62c94f4a064c8b8.json",
 					"name" : "MiniCoursework",
 					"projectIndex" : 0
 				}
@@ -55,6 +55,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 4
 	}
 }

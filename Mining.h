@@ -25,7 +25,6 @@ typedef struct {
 } MapSquare;
 
 //function prototypes
-//void initializeMap(MapSquare map[][MAP_SIZE]);
 void mineCurrentSquare(Player *player, MapSquare map[][MAP_SIZE]);
 
 #endif

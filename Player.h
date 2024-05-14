@@ -1,15 +1,16 @@
 #ifndef PLAYER_H
 #define PLAYER_H
 
-#include "Inventory.h"//Include inventory structure definition
+#define MAP_SIZE 12
+#define VISIBILITY_RANGE 2
 
 //define structures
 typedef struct {
-    char name[50];
-    int coins;
-    int posX;
-    int posY;
-    InventoryItem inventory[MAX_INVENTORY_SIZE];
+    int x; //players x-coordinate
+    int y; //players y-coordinate
+    int visibility[MAP_SIZE][MAP_SIZE];
 } Player;
+
+void movePlayer(Player *player, char direction);
 
 #endif
